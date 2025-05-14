@@ -11,7 +11,7 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/fitnessTracker';
+const MONGO_URI = process.env.MONGO_URI || 'mmongodb+srv://saravanakarthiek39:test@cluster0.yfpf8sf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/fitnessTracker';
 
 // Middleware
 app.use(cors());
